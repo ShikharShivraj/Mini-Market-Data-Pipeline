@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data / outputs
+data/
+*.parquet
+*.parquet.tmp
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
