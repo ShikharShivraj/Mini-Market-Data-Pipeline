@@ -1,13 +1,5 @@
 """Goal Create a static tick dataset by capturing public Binance market-data streams for
- BTCUSDT (best bid/ask quotes + aggregated trades) and writing them to a Parquet file.
-
-Deliverables src/capture.py that records for N seconds and writes Parquet; includes reconnect and clean shutdown.
-
-
-{"stream":"btcusdt@aggTrade","data":{"e":"aggTrade","E":1769224657584,"s":"BTCUSDT","a":3821253461,"p":"89879.78000000","q":"0.00068000","f":5808851364,"l":5808851364,"T":1769224657583,"m":true,"M":true}}
-{"stream":"btcusdt@bookTicker","data":{"u":85592068563,"s":"BTCUSDT","b":"89879.78000000","B":"4.93986000","a":"89879.79000000","A":"2.11027000"}}
-{"stream":"btcusdt@aggTrade","data":{"e":"aggTrade","E":1769224658079,"s":"BTCUSDT","a":3821253462,"p":"89879.79000000","q":"0.00222000","f":5808851365,"l":5808851365,"T":1769224658079,"m":false,"M":true}}
-"""
+BTCUSDT (best bid/ask quotes + aggregated trades) and writing them to a Parquet file."""
 
 import argparse
 from pathlib import Path
